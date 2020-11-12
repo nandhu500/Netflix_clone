@@ -1,0 +1,26 @@
+.row_post {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.img_contain {
+  width: 100%;
+  max-height: 200px;
+  margin: 10px;
+}
+.img_contain_large {
+  width: 50%;
+  max-height: 200px;
+  margin: 10px;
+}
+.img_contain:hover,
+.img_contain_large:hover {
+  transform: scale(1.08);
+  opacity: 1;
+  cursor: pointer;
+}
+
+h2 {
+  color: white;
+}
